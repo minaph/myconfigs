@@ -49,4 +49,4 @@ $data | ForEach-Object {
 git add .
 git commit -m "Update configs"
 git push origin $user_id
-git branch -u $user_id
+git branch -u origin/$user_id
