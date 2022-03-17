@@ -1,6 +1,10 @@
 $user_id = $env:USERNAME + "-" + $env:USERDOMAIN
 $user_id = $user_id -ireplace "\W", "-"
-git checkout -b $user_id
+if ((git branch --list) -match $user_id) {
+    git checkout $user_id
+} else {
+    git checkout -b $user_id
+}
 
 $url = "https://script.googleusercontent.com/macros/echo?user_content_key=vGMLE-RZCFsSCJc1w6158TqbM-Vf7h7kHBN7ZEzyE1OFCubKThUA0KIEaVHZh2PV2Hqyx_rRKieiYIk2ljOUVsajDLQ_l0Vum5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOGBNwLEIyNeZObY2zAO6DMnMypMsqSSxgJBqHdLuB-AfLXWQrK_0f45RrrOtU29nwKQ8NpLbEBSbMa4fIQx_33eRgqRiMbZsw&lib=Mg37eTNQc0jY1NGm1GWiFViTmmKHkEHEC"
 $csv = Invoke-RestMethod $url | ConvertFrom-Csv
