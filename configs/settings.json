@@ -1,0 +1,139 @@
+
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "git.autofetch": true,
+    "[vue]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "typescript": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.bmp": "plist",
+        "*.typedesc": "typescript"
+    },
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "settingsSync.ignoredExtensions": [
+        "bierner.docs-view"
+    ],
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vetur.useWorkspaceDependencies": true,
+    "workbench.colorTheme": "Ayu Dark",
+    "pasteImage.path": "${currentFileDir}/assets",
+    "pasteImage.insertPattern": "<img src=\"${imageFilePath}\" />",
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "FiraCode NF",
+    "terminal.external.osxExec": "kitty",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.osx": "tmux",
+    "prettier.tabWidth": 4,
+    "editor.fontWeight": 400,
+    "editor.fontFamily": "FiraCode Nerd Font Mono, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontWeight": 300,
+    "terminal.integrated.fontWeightBold": 500,
+    "terminal.integrated.fontSize": 12,
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-gg",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.chktex.args.active": [
+        "-wall",
+        "-n22",
+        "-n30",
+        "-e16",
+        "-q",
+        "-n19"
+    ],
+    "latex-workshop.chktex.args.root": [
+        "-wall",
+        "-n22",
+        "-n30",
+        "-e16",
+        "-q",
+        "-n19"
+    ],
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.chktex.run": "onType",
+    "latex-workshop.view.pdf.viewer": "tab"
+}
